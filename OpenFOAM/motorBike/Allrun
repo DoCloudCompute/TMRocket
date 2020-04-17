@@ -1,0 +1,77 @@
+echo "blockMesh"
+blockMesh > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
+
+
+echo "verify that everything fits pls... you got 3 secs to abort..."
+echo "command to move stl: surfaceTransformPoints constant/triSurface/monkey.stl -translate \"(2 0 4)\" constant/triSurface/monkey.stl"
+sleep 3
+
+
+echo "surfaceFeatureExtract"
+surfaceFeatureExtract > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
+
+echo "blockMesh"
+blockMesh > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
+
+echo "decomposePar"
+decomposePar > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
+
+echo "snappyHexMesh"
+snappyHexMesh -overwrite > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
+
+echo "patchSummary"
+patchSummary > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
+
+echo "potentialFoam"
+potentialFoam > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
+
+echo "decomposePar"
+decomposePar > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processors*
+
+echo "simpleFoam"
+simpleFoam > /dev/null
+if [ $? != 0 ]
+	then
+		echo "error" && exit
+fi
+rm -r processor*
