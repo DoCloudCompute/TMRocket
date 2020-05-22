@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="217.82292mm"
+   height="454.88959mm"
+   viewBox="0 0 217.82291 454.88959"
+   version="1.1"
+   id="svg170"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="pipeline_MK2.svg"
+   inkscape:export-filename="/home/gaming/Documents/Work/TM/planning/pipeline_MK2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs164">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1215"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1213"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1191"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1189"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3436"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path3434"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3288"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3286"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker2512"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2510"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2368"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2366"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1918"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1916"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1828"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1826"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1714"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1712"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1048"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1042"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-3"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1048-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="318.59803"
+     inkscape:cy="1225.4995"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="987"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata167">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2.0339286,-0.55089015)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="108.54309"
+       y="35.13361"
+       id="text174"><tspan
+         sodipodi:role="line"
+         id="tspan172"
+         x="108.54309"
+         y="35.13361"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Flight Prediciton Program</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="104.52779"
+       y="9.6852579"
+       id="text178"><tspan
+         sodipodi:role="line"
+         id="tspan176"
+         x="104.52779"
+         y="9.6852579"
+         style="font-size:7.05555534px;text-align:center;text-anchor:middle;stroke-width:0.26458332">TM pipeline with dependencies and DLs.</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot180"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion182"
+         style="text-align:start;text-anchor:start"><rect
+           id="rect184"
+           width="126.26907"
+           height="61.619305"
+           x="339.41125"
+           y="189.13873"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara186" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot188"
+       style="font-style:normal;font-weight:normal;font-size:16px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion190"
+         style="text-align:center;text-anchor:middle"><rect
+           id="rect192"
+           width="73.741135"
+           height="39.39595"
+           x="342.44171"
+           y="180.04736"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara194" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="96.217026"
+       y="52.44838"
+       id="text198"><tspan
+         sodipodi:role="line"
+         id="tspan196"
+         x="96.217026"
+         y="56.193886"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="105.83874"
+       y="48.493053"
+       id="text202"><tspan
+         sodipodi:role="line"
+         id="tspan200"
+         x="105.83874"
+         y="48.493053"
+         style="stroke-width:0.26458332">How to pressurize tank (air)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="106.37327"
+       y="64.529221"
+       id="text206"><tspan
+         sodipodi:role="line"
+         id="tspan204"
+         x="106.37327"
+         y="64.529221"
+         style="stroke-width:0.26458332">Predicting and listing</tspan><tspan
+         sodipodi:role="line"
+         x="106.37327"
+         y="69.820885"
+         style="stroke-width:0.26458332"
+         id="tspan208">error sources</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="107.17508"
+       y="84.841705"
+       id="text212"><tspan
+         sodipodi:role="line"
+         id="tspan210"
+         x="107.17508"
+         y="84.841705"
+         style="stroke-width:0.26458332">Measuring trajectory in real life</tspan><tspan
+         sodipodi:role="line"
+         x="107.17508"
+         y="90.133369"
+         style="stroke-width:0.26458332"
+         id="tspan214">methods set-up and planning</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="108.51142"
+       y="145.09813"
+       id="text218"><tspan
+         sodipodi:role="line"
+         id="tspan216"
+         x="108.51142"
+         y="145.09813"
+         style="stroke-width:0.26458332">Launchpad design</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="107.97688"
+       y="163.27237"
+       id="text222"><tspan
+         sodipodi:role="line"
+         id="tspan220"
+         x="107.97688"
+         y="163.27237"
+         style="stroke-width:0.26458332">Rocket design</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="109.58051"
+       y="239.39839"
+       id="text226"><tspan
+         sodipodi:role="line"
+         id="tspan224"
+         x="109.58051"
+         y="239.39839"
+         style="stroke-width:0.26458332">Explain diffs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="107.44235"
+       y="255.9691"
+       id="text230"><tspan
+         sodipodi:role="line"
+         id="tspan228"
+         x="107.44235"
+         y="255.9691"
+         style="stroke-width:0.26458332">Formatting and writing handout</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 107.42087,37.535007 v 6.681739"
+       id="path232"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-3)"
+       d="m 107.42625,51.032902 v 9.888973"
+       id="path232-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path1710"
+       d="m 107.42625,72.19957 v 8.552625"
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1714)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1828)"
+       d="m 107.95542,113.47461 v 8.55262"
+       id="path1824"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path1914"
+       d="m 107.95542,147.34127 v 11.49259"
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1918)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2368)"
+       d="m 107.95542,222.189 v 13.09621"
+       id="path2364"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path2508"
+       d="M 107.95542,241.00397 V 252.2293"
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2512)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 30.735995,12.112172 H 179.33785"
+       id="path2972"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3138"
+       width="205.65007"
+       height="7.3174868"
+       x="2.5390604"
+       y="14.095205" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.646187"
+       y="19.023575"
+       id="text3136"><tspan
+         sodipodi:role="line"
+         id="tspan3134"
+         x="28.646187"
+         y="19.023575"
+         style="stroke-width:0.26458332">Done by</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64.54559,14.228839 0,244.557761"
+       id="path3140"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.537201"
+       y="34.949108"
+       id="text3144"><tspan
+         sodipodi:role="line"
+         id="tspan3142"
+         x="28.537201"
+         y="34.949108"
+         style="stroke-width:0.26458332">Done</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="27.59226"
+       y="49.047619"
+       id="text3148"><tspan
+         sodipodi:role="line"
+         id="tspan3146"
+         x="27.59226"
+         y="49.047619"
+         style="stroke-width:0.26458332">April 28th</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.915178"
+       y="68.891373"
+       id="text3152"><tspan
+         sodipodi:role="line"
+         id="tspan3150"
+         x="28.915178"
+         y="68.891373"
+         style="stroke-width:0.26458332">May 1st</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.159225"
+       y="89.302078"
+       id="text3156"><tspan
+         sodipodi:role="line"
+         id="tspan3154"
+         x="28.159225"
+         y="89.302078"
+         style="stroke-width:0.26458332">May 3rd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="27.403273"
+       y="146.86775"
+       id="text3160"><tspan
+         sodipodi:role="line"
+         id="tspan3158"
+         x="27.403273"
+         y="146.86775"
+         style="stroke-width:0.26458332">March 23rd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.647322"
+       y="164.48137"
+       id="text3164"><tspan
+         sodipodi:role="line"
+         id="tspan3162"
+         x="26.647322"
+         y="164.48137"
+         style="stroke-width:0.26458332">June 6th</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.836308"
+       y="239.50961"
+       id="text3168"><tspan
+         sodipodi:role="line"
+         id="tspan3166"
+         x="26.836308"
+         y="239.50961"
+         style="stroke-width:0.26458332">July 30th</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="29.482143"
+       y="254.62865"
+       id="text3172"><tspan
+         sodipodi:role="line"
+         id="tspan3170"
+         x="29.482143"
+         y="254.62865"
+         style="stroke-width:0.26458332">October 26th</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3178"
+       d="m 149.21229,14.228839 0,246.334251"
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="107.95195"
+       y="18.87104"
+       id="text3132"><tspan
+         sodipodi:role="line"
+         id="tspan3130"
+         x="107.95195"
+         y="18.87104"
+         style="stroke-width:0.26458332">Tasks</tspan></text>
+    <text
+       id="text3210"
+       y="19.400208"
+       x="181.50612"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="19.400208"
+         x="181.50612"
+         id="tspan3208"
+         sodipodi:role="line">Return</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="187.06898"
+       y="73.429352"
+       id="text3214"><tspan
+         sodipodi:role="line"
+         id="tspan3212"
+         x="187.06898"
+         y="73.429352"
+         style="stroke-width:0.26458332">Preliminary TM rendition</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:47.71714783px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.98232174"
+       x="298.67087"
+       y="51.634071"
+       id="text3218"
+       transform="scale(0.51940519,1.9252792)"><tspan
+         sodipodi:role="line"
+         id="tspan3216"
+         x="298.67087"
+         y="51.634071"
+         style="opacity:0.98999999;stroke-width:2.98232174">}</tspan></text>
+    <text
+       id="text3282"
+       y="220.42236"
+       x="107.97688"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="220.42236"
+         x="107.97688"
+         id="tspan3280"
+         sodipodi:role="line">Rocket launch</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3288)"
+       d="m 107.95542,204.49133 v 11.49259"
+       id="path3284"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="107.97688"
+       y="182.32234"
+       id="text3412"><tspan
+         sodipodi:role="line"
+         id="tspan3410"
+         x="107.97688"
+         y="182.32234"
+         style="stroke-width:0.26458332">Launchpad build</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3414"
+       d="m 107.95542,166.3913 v 11.49259"
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3436)" />
+    <text
+       id="text3584"
+       y="202.43071"
+       x="107.97688"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="202.43071"
+         x="107.97688"
+         id="tspan3582"
+         sodipodi:role="line">Rocket build</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1191)"
+       d="m 107.95542,186.49964 v 11.49259"
+       id="path3586"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       id="text3630"
+       y="182.47301"
+       x="26.647322"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="182.47301"
+         x="26.647322"
+         id="tspan3628"
+         sodipodi:role="line">June 16th</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.647322"
+       y="202.05222"
+       id="text3634"><tspan
+         sodipodi:role="line"
+         id="tspan3632"
+         x="26.647322"
+         y="202.05222"
+         style="stroke-width:0.26458332">July 3th</tspan></text>
+    <text
+       id="text3638"
+       y="221.10219"
+       x="26.647322"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="221.10219"
+         x="26.647322"
+         id="tspan3636"
+         sodipodi:role="line">July 4th</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:54.09647369px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.38102961"
+       x="326.37604"
+       y="106.99001"
+       id="text3218-5"
+       transform="scale(0.47624476,2.0997606)"><tspan
+         sodipodi:role="line"
+         id="tspan3216-3"
+         x="326.37604"
+         y="106.99001"
+         style="opacity:0.98999999;stroke-width:3.38102961">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="181.47116"
+       y="172.94328"
+       id="text3660"><tspan
+         sodipodi:role="line"
+         id="tspan3658"
+         x="181.47116"
+         y="172.94328"
+         style="stroke-width:0.26458332">Final Practical work</tspan></text>
+    <text
+       transform="scale(0.86152301,1.1607351)"
+       id="text3664"
+       y="221.50467"
+       x="175.9119"
+       style="font-style:normal;font-weight:normal;font-size:6.59625435px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4122659"
+       xml:space="preserve"><tspan
+         style="opacity:0.98999999;stroke-width:0.4122659"
+         y="221.50467"
+         x="175.9119"
+         id="tspan3662"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       id="text3678"
+       y="255.83345"
+       x="172.4753"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="255.83345"
+         x="172.4753"
+         id="tspan3676"
+         sodipodi:role="line">Final work</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.35277778px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="214.6725"
+       y="399.52423"
+       id="text3682"><tspan
+         sodipodi:role="line"
+         id="tspan3680"
+         x="214.6725"
+         y="399.52423"
+         style="font-size:0.03527778px;stroke-width:0.26458332">fuck you. you fuckin sonnovabitch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="10.172321"
+       y="271.78415"
+       id="text3686"><tspan
+         sodipodi:role="line"
+         id="tspan3684"
+         x="10.172321"
+         y="271.78415"
+         style="stroke-width:0.26458332">Details:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="38.482738"
+       y="278.66327"
+       id="text3690"><tspan
+         sodipodi:role="line"
+         id="tspan3688"
+         x="38.482738"
+         y="278.66327"
+         style="stroke-width:0.26458332">Flight prediction program:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="20.226471"
+       y="284.48419"
+       id="text3694"><tspan
+         sodipodi:role="line"
+         id="tspan3692"
+         x="20.226471"
+         y="284.48419"
+         style="stroke-width:0.26458332">Gravity in function of altitude</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="289.77585"
+         style="stroke-width:0.26458332"
+         id="tspan3696">Calculating the volume of the fuel in function of time</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="295.06754"
+         style="stroke-width:0.26458332"
+         id="tspan3698">Calculating the fuel mass in function of fuel volume</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="300.35919"
+         style="stroke-width:0.26458332"
+         id="tspan3700">Calculating the fuel flow in function of pressure, nozzle aperture, etc... with Boyle's law</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="305.65085"
+         style="stroke-width:0.26458332"
+         id="tspan3702">Calculating the current thrust in function of fuel flow</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="310.94254"
+         style="stroke-width:0.26458332"
+         id="tspan3704">Calculating drag in function of speed, apparent surface, etc...</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="316.23419"
+         style="stroke-width:0.26458332"
+         id="tspan3706">Calculating the push force in function of thrust, drag and gravity</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="321.52585"
+         style="stroke-width:0.26458332"
+         id="tspan3708">Calculating the speed in function of push force, mass, etc...</tspan><tspan
+         sodipodi:role="line"
+         x="20.226471"
+         y="326.81754"
+         style="stroke-width:0.26458332"
+         id="tspan3710">Calculating movement (position) in function of speed and time</tspan></text>
+    <text
+       id="text3714"
+       y="336.87164"
+       x="9.426116"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="336.87164"
+         x="9.426116"
+         id="tspan3712"
+         sodipodi:role="line">How to pressurize tank (air):</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="21.020237"
+       y="342.16336"
+       id="text3718"><tspan
+         sodipodi:role="line"
+         x="21.020237"
+         y="342.16336"
+         style="stroke-width:0.26458332"
+         id="tspan3720">Methods listing, sources listing, comparing and choosing best fitting method</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="9.426116"
+       y="352.74661"
+       id="text3726"><tspan
+         sodipodi:role="line"
+         id="tspan3724"
+         x="9.426116"
+         y="352.74661"
+         style="text-align:start;text-anchor:start;stroke-width:0.26458332">Predicting and listing error sources</tspan></text>
+    <text
+       id="text3740"
+       y="358.03833"
+       x="21.020237"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan3738"
+         style="stroke-width:0.26458332"
+         y="358.03833"
+         x="21.020237"
+         sodipodi:role="line">Methods listing, sources listing, comparing and choosing best fitting method</tspan><tspan
+         style="stroke-width:0.26458332"
+         y="363.32999"
+         x="21.020237"
+         sodipodi:role="line"
+         id="tspan3742">Running simulation do determine which errors are most prominent</tspan></text>
+    <text
+       id="text3746"
+       y="373.91324"
+       x="9.426116"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="373.91324"
+         x="9.426116"
+         id="tspan3744"
+         sodipodi:role="line">Launchpad design</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="21.020237"
+       y="379.20496"
+       id="text3752"><tspan
+         id="tspan3750"
+         sodipodi:role="line"
+         x="21.020237"
+         y="379.20496"
+         style="stroke-width:0.26458332">Needs to have some kind of holding device, tank pressurizing valve, build out of metal</tspan><tspan
+         sodipodi:role="line"
+         x="21.020237"
+         y="384.49661"
+         style="stroke-width:0.26458332"
+         id="tspan3756">and wood (no cardboard please). </tspan><tspan
+         sodipodi:role="line"
+         x="21.020237"
+         y="389.7883"
+         style="stroke-width:0.26458332"
+         id="tspan3881">Use of Duct Tape will be strongly encouraged. </tspan><tspan
+         sodipodi:role="line"
+         x="21.020237"
+         y="395.07996"
+         style="stroke-width:0.26458332"
+         id="tspan3770">Will be designed with Blender</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="9.426116"
+       y="403.54666"
+       id="text3762"><tspan
+         sodipodi:role="line"
+         id="tspan3760"
+         x="9.426116"
+         y="403.54666"
+         style="text-align:start;text-anchor:start;stroke-width:0.26458332">Rocket design</tspan></text>
+    <text
+       id="text3768"
+       y="408.83838"
+       x="21.020237"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan3766"
+         style="stroke-width:0.26458332"
+         y="408.83838"
+         x="21.020237"
+         sodipodi:role="line">A light, highly technologically advanced polyethylene terephthalate bottle (PET bottle) </tspan><tspan
+         style="stroke-width:0.26458332"
+         y="414.13004"
+         x="21.020237"
+         sodipodi:role="line"
+         id="tspan3780">will be expertly cut and modified to our needs and will be used as an all-in-one </tspan><tspan
+         style="stroke-width:0.26458332"
+         y="419.42172"
+         x="21.020237"
+         sodipodi:role="line"
+         id="tspan3782">pressurant, fuel and nozzle device. Some Ochroma Pyramidale wood (balsa wood) </tspan><tspan
+         style="stroke-width:0.26458332"
+         y="424.71338"
+         x="21.020237"
+         sodipodi:role="line"
+         id="tspan3784">will be used to construct the stabilization fins as well as the shock cone.</tspan><tspan
+         style="stroke-width:0.26458332"
+         y="430.00504"
+         x="21.020237"
+         sodipodi:role="line"
+         id="tspan3776">Use of Duct Tape will obiously be strongly encouraged. </tspan><tspan
+         style="stroke-width:0.26458332"
+         y="435.29672"
+         x="21.020237"
+         sodipodi:role="line"
+         id="tspan3790">Will be designed with Blender.</tspan></text>
+    <text
+       id="text3833"
+       y="445.87991"
+       x="9.426116"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="text-align:start;text-anchor:start;stroke-width:0.26458332"
+         y="445.87991"
+         x="9.426116"
+         id="tspan3831"
+         sodipodi:role="line">Comparing diffs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="21.020237"
+       y="451.17163"
+       id="text3847"><tspan
+         id="tspan3845"
+         sodipodi:role="line"
+         x="21.020237"
+         y="451.17163"
+         style="stroke-width:0.26458332">Comparaison of data between the simulations and the real life experiment.</tspan></text>
+    <text
+       id="text1195"
+       y="126.57745"
+       x="108.51142"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="126.57745"
+         x="108.51142"
+         id="tspan1193"
+         sodipodi:role="line">Preliminary TM rendition</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1918)"
+       d="m 107.95542,128.82043 v 11.49259"
+       id="path1197"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       id="text1201"
+       y="126.34373"
+       x="28.159225"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="126.34373"
+         x="28.159225"
+         id="tspan1199"
+         sodipodi:role="line">May 22nd</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path1203"
+       d="m 107.95542,93.36627 v 8.55262"
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1215)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="108.51142"
+       y="106.46912"
+       id="text1207"><tspan
+         sodipodi:role="line"
+         id="tspan1205"
+         x="108.51142"
+         y="106.46912"
+         style="stroke-width:0.26458332">TM draft handout to Maley for</tspan><tspan
+         sodipodi:role="line"
+         x="108.51142"
+         y="111.76078"
+         style="stroke-width:0.26458332"
+         id="tspan1217">audit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="28.159225"
+       y="106.2354"
+       id="text1211"><tspan
+         sodipodi:role="line"
+         id="tspan1209"
+         x="28.159225"
+         y="106.2354"
+         style="stroke-width:0.26458332">May 13th</tspan></text>
+  </g>
+</svg>
