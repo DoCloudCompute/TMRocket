@@ -7,6 +7,7 @@ cons_EarthMass = float(5.972e24) # in kg
 cons_EarthRadi = float(6.371e6) # in meters
 cons_airRho = float(1.293) # in kg/m³
 cons_atm = float(1.01325e5) # in Pa
+cons_adbiatic_idx =  1.4
 
 def get_curr_grav(height):
 	# returns the current acceleration of gravity in m.s⁻²
@@ -21,6 +22,7 @@ def get_fuel_mass(fuel_vol, fuel_rho):
 	return fuel_vol*fuel_rho / 1000
 	
 def get_fuel_flow(fuel_rho, tank_pres, tank_vol, nozzle_area, delta_t, fuel_vol):
+	global cons_adbiatic_idx, adbiatic_constant
 	if tank_pres-cons_atm < 0 or fuel_vol == 0:
 		exit_spd = 0
 	else:
@@ -28,7 +30,8 @@ def get_fuel_flow(fuel_rho, tank_pres, tank_vol, nozzle_area, delta_t, fuel_vol)
 	exit_flow = nozzle_area * exit_spd * 1000
 	
 	newtank_vol = tank_vol+(exit_flow*delta_t)
-	newtank_pres = tank_pres*tank_vol/newtank_vol
+	#newtank_pres = tank_pres*tank_vol/newtank_vol
+	newtank_pres = adbiatic_constant / (newtank_vol ** cons_adbiatic_idx)
 	
 	return exit_flow, newtank_vol, newtank_pres, exit_spd
 	
@@ -63,6 +66,8 @@ def get_disp(push_force, fuel_mass, mass, delta_t, height, speed):
 	return max([0, disp]) # clamp min at 0
 
 def rerun(nozzle_rad):
+	global adbiatic_constant
+	
 	# vars
 	height = 0 # in meters
 	mass = 0.2 # in kg
@@ -77,9 +82,9 @@ def rerun(nozzle_rad):
 	fuel_rho = 998 # in g/L (or kg/m³)
 
 	tank_pres = 6*cons_atm
-	tank_vol = 100-fuel_vol # in % of the tank's capacity
+	tank_vol = 100-fuel_vol # air in % of the tank's capacity
 
-	delta_t = 0.000001 # in secs
+	delta_t = 0.001000 # in secs
 	sim_time = 0 # in secs
 	max_time = 10 # in secs
 
@@ -93,6 +98,7 @@ def rerun(nozzle_rad):
 	fuel_vol = (fuel_vol/100) * tank_capacity
 	init_fuel_vol = fuel_vol
 	tank_vol = (tank_vol/100) * tank_capacity
+	adbiatic_constant = tank_pres * tank_vol ** cons_adbiatic_idx
 
 	capped = False
 
@@ -124,13 +130,6 @@ def rerun(nozzle_rad):
 optlst = []
 xlst = []
 
-#for i in range(10,40,1):
-#	i = i/10000
-#	apogee = rerun(i)
-#	print(i, apogee)
-#	optlst.append(apogee)
-#	xlst.append(i)
-#print("going faster")
 for i in range(3,25,1):
 	i = i/1000
 	apogee = rerun(i)
