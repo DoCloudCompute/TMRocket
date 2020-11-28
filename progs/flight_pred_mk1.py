@@ -11,22 +11,22 @@ cons_adbiatic_idx =  1.4
 
 # vars
 height = 0 # in meters
-mass = 0.2 # in kg
+mass = 0.171 # in kg
 speed = 0 # in m/s
 tank_capacity = 1.5 # in liters
-nozzle_area = math.pi * 0.011**2
+nozzle_area = math.pi * 0.0045**2
 
 drag_coeff = 0.75 # drag coefficient given by CFD
 vis_section = math.pi * 0.05**2 # apparent section of the rocket (5 cm radius in this case)
 
 fuel_rho = 998 # in g/L (or kg/m³)
-fuel_vol = int(input("fuel %? [30%]") or 30)
+fuel_vol = int(input("fuel %? [51%]") or 51)
 #fuel_vol =  30 # in % of the tank's capacity
 
-tank_pres = 6*cons_atm
+tank_pres = 4*cons_atm
 tank_vol = 100-fuel_vol # in % of the tank's capacity
 
-delta_t = 0.00005 # in secs
+delta_t = 0.0001 # in secs
 sim_time = 0 # in secs
 max_time = 10 # in secs
 
