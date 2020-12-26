@@ -9,10 +9,7 @@ cons_airRho = float(1.293) # in kg/m³
 cons_atm = float(1.01325e5) # in Pa
 cons_adbiatic_idx =  1.4
 
-def get_curr_grav(height):
-	# returns the current acceleration of gravity in m.s⁻²
-	return (cons_G*cons_EarthMass)/(cons_EarthRadi + height)**2
-
+# funcs
 def get_fuel_vol(fuel_vol, fuel_flow, delta_t):
 	# returns the new quant of fuel in liters
 	return max([0, fuel_vol - (fuel_flow*delta_t)]) # clamps min value to 0
@@ -22,7 +19,6 @@ def get_fuel_mass(fuel_vol, fuel_rho):
 	return fuel_vol*fuel_rho / 1000
 
 def get_fuel_flow(fuel_rho, tank_pres, tank_vol, nozzle_area, delta_t, fuel_vol):
-	global cons_adbiatic_idx, adbiatic_constant
 	if tank_pres-cons_atm < 0 or fuel_vol == 0:
 		exit_spd = 0
 	else:
@@ -30,7 +26,6 @@ def get_fuel_flow(fuel_rho, tank_pres, tank_vol, nozzle_area, delta_t, fuel_vol)
 	exit_flow = nozzle_area * exit_spd * 1000
 
 	newtank_vol = tank_vol+(exit_flow*delta_t)
-	#newtank_pres = tank_pres*tank_vol/newtank_vol
 	newtank_pres = adbiatic_constant / (newtank_vol ** cons_adbiatic_idx)
 
 	return exit_flow, newtank_vol, newtank_pres, exit_spd
@@ -65,26 +60,32 @@ def get_disp(push_force, fuel_mass, mass, delta_t, height, speed):
 	disp = (0.5 * acc * delta_t**2) + (speed*delta_t) + (height) # x = 0.5.at²+x0
 	return max([0, disp]) # clamp min at 0
 
-def rerun(nozzle_rad):
+def rerun(optimizer):
 	global adbiatic_constant
+
+	cons_grav = 9.81
+	cons_airRho = float(1.293) # in kg/m³
+	cons_atm = float(1.01325e5) # in Pa
+	cons_adbiatic_idx =  1.4
 
 	# vars
 	height = 0 # in meters
-	mass = 0.2 # in kg
+	mass = 0.171 # in kg
 	speed = 0 # in m/s
 	tank_capacity = 1.5 # in liters
-	nozzle_area = math.pi * nozzle_rad**2
+	nozzle_area = math.pi * 0.0045**2
 
 	drag_coeff = 0.75 # drag coefficient given by CFD
 	vis_section = math.pi * 0.05**2 # apparent section of the rocket (5 cm radius in this case)
 
-	fuel_vol = 51
 	fuel_rho = 998 # in g/L (or kg/m³)
+	fuel_vol = optimizer
+	#fuel_vol =  30 # in % of the tank's capacity
 
-	tank_pres = 6*cons_atm
-	tank_vol = 100-fuel_vol # air in % of the tank's capacity
+	tank_pres = 5*cons_atm
+	tank_vol = 100-fuel_vol # in % of the tank's capacity
 
-	delta_t = 0.001000 # in secs
+	delta_t = 0.0001 # in secs
 	sim_time = 0 # in secs
 	max_time = 10 # in secs
 
@@ -94,6 +95,7 @@ def rerun(nozzle_rad):
 	pllst2 = []
 	pllst3 = []
 	pllst4 = []
+	optlst = []
 
 	fuel_vol = (fuel_vol/100) * tank_capacity
 	init_fuel_vol = fuel_vol
@@ -104,34 +106,33 @@ def rerun(nozzle_rad):
 
 	# time loop
 	while sim_time < max_time:
-		grav = get_curr_grav(height)
 		fuel_flow, tank_vol, tank_pres, fuel_spd = get_fuel_flow(fuel_rho, tank_pres, tank_vol, nozzle_area, delta_t, fuel_vol)
 
 		fuel_vol = get_fuel_vol(fuel_vol, fuel_flow, delta_t)
 		fuel_mass = get_fuel_mass(fuel_vol, fuel_rho)
 		thrust = get_curr_thrust(fuel_flow, fuel_rho, delta_t, fuel_spd, fuel_mass)
 		drag = get_drag(drag_coeff, speed, vis_section)
-		push_force = get_curr_push(grav, thrust, mass, fuel_mass, drag)
+		push_force = get_curr_push(cons_grav, thrust, mass, fuel_mass, drag)
 		height = get_disp(push_force, fuel_mass, mass, delta_t, height, speed)
 		speed = get_spd(push_force, fuel_mass, mass, delta_t, speed, height)
 
+		if height == 0 and sim_time != 0 and not capped:
+			max_time = sim_time + 1
+			capped = True
 
 		timelst.append(sim_time)
 		pllst1.append(speed)
 		pllst2.append(drag)
-		pllst3.append(push_force)
+		pllst3.append(height)
 		pllst4.append(thrust)
-		if thrust == 0: return max(pllst2)
 		sim_time+=delta_t
 
-	#print("{}% of fuel left | air tank pressure: {} atm | apogee: {}m | max speed: {}m/s".format(round(100*fuel_vol/init_fuel_vol, 2), round(tank_pres/cons_atm, 2), round(max(pllst3),2), round(max(pllst1),2)))
-	return max(pllst2)
+	return max(pllst3)
 
 optlst = []
 xlst = []
 
-for i in range(3,25,1):
-	i = i/1000
+for i in range(1,99,1):
 	apogee = rerun(i)
 	print(i, apogee)
 	optlst.append(apogee)

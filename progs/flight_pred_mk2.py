@@ -6,6 +6,7 @@ cons_airRho = float(1.293) # in kg/m³
 cons_atm = float(1.01325e5) # in Pa
 cons_adbiatic_idx =  1.4
 cons_grav = 9.81
+cons_crookedness = 10 # degrees
 
 # vars
 height = 0 # in meters
